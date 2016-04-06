@@ -11,5 +11,5 @@ ncurses : ncurses.c
 memmove : memmove.c
 	$(CC) -o memmove memmove.c
 
-clean : 
+clean :
 	rm -rf *o $(targets)

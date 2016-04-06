@@ -10,3 +10,8 @@ ar rs libtest.a test_a.o test_b.o
 gcc -o main -L. -ltest main.c
 
 #执行一下./main就可以看到效果
+
+
+##当然，你也可以手动编译，不使用静态链接库：
+
+gcc -Wall -o main main.c test_a.c test_b.c

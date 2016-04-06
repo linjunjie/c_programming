@@ -3,6 +3,8 @@
 
 int main(){
 	test_a();
+	test_aa();
 	test_b();
+
 	return 1;
 }
